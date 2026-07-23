@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>MikroTik Manager</title>
+  <defs><linearGradient id="g" x1="8" y1="6" x2="56" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient></defs>
+  <rect width="64" height="64" rx="18" fill="#07111f"/>
+  <rect x="12" y="20" width="40" height="25" rx="7" fill="url(#g)"/>
+  <path d="M22 20v-7m20 7v-7M21 32h.1M29 32h.1M38 32h7" fill="none" stroke="#07111f" stroke-width="4" stroke-linecap="round"/>
+</svg>

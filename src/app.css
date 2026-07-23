@@ -1,0 +1,57 @@
+:root {
+	font-family: "Segoe UI Variable", "Aptos", "Noto Sans", "Segoe UI", sans-serif;
+	font-synthesis: none;
+	color-scheme: light;
+	color: #20231f;
+	background: #eeece4;
+	--surface-canvas: #eeece4;
+	--surface-work: #f7f5ee;
+	--surface-base: #fffefa;
+	--surface-subtle: #f0efe8;
+	--surface-inverse: #1c1f1b;
+	--text-primary: #20231f;
+	--text-secondary: #62665e;
+	--text-tertiary: #81857c;
+	--text-inverse: #f5f6f1;
+	--border-default: #cecec4;
+	--border-strong: #a7a99f;
+	--action-primary: #d6ef4f;
+	--action-primary-hover: #e2f674;
+	--action-primary-border: #b6ca3c;
+	--status-success: #176b45;
+	--status-success-surface: #e7f2eb;
+	--status-warning: #7b6214;
+	--status-warning-surface: #fbf4d5;
+	--status-danger: #a72c23;
+	--status-danger-surface: #fae9e6;
+	--status-info: #315d72;
+	--status-info-surface: #e7f0f3;
+	--focus-ring: #9ab51b;
+	--font-display: "Aptos Display", "Trebuchet MS", "Segoe UI", sans-serif;
+	--font-body: "Segoe UI Variable", "Aptos", "Noto Sans", "Segoe UI", sans-serif;
+	--font-data: "IBM Plex Mono", "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+	--radius-control: 3px;
+	--radius-panel: 4px;
+	--motion-fast: 100ms;
+	--motion-standard: 180ms;
+}
+
+* { box-sizing: border-box; }
+html, body { min-width: 320px; min-height: 100vh; margin: 0; }
+body { color: var(--text-primary); background: var(--surface-canvas); }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+	outline: 2px solid var(--focus-ring);
+	outline-offset: 2px;
+}
+::selection { color: #11130f; background: var(--action-primary); }
+
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after {
+		scroll-behavior: auto !important;
+		animation-duration: .01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: .01ms !important;
+	}
+}
